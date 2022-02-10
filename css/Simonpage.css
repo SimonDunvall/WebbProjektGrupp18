@@ -50,6 +50,16 @@ label{
     display: flex;
 }
 
+.infocardanimation{
+    animation-name: biggertext;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.transparent{
+    opacity: 0;
+}
+
 @media only screen and (max-width: 768px) {
     #image{
         position: absolute;
@@ -97,6 +107,10 @@ label{
     #smallerscreen{
         padding-top: 11vh;
     }
+}
+
+@keyframes biggertext {
+    100%{width: 40vw; left: 5vw;}
 }
 
 
