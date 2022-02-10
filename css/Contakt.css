@@ -44,3 +44,19 @@ main{
 .showcase::before, .showcase::after {
   z-index: -1;
 }
+
+label{
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  textarea{
+    height: 20vh;
+  }
+}
+
+@media only screen and (max-width: 389px) {
+  textarea{
+    height: 10vh;
+  }
+}
