@@ -16,7 +16,8 @@ textarea{
   height: 60vh;
   border-radius: 10px;
   box-shadow: 5px 5px 3px 3px grey;
-  overflow: scroll;
+  overflow: auto;
+  background-color: white;
 }
 
 form{
@@ -29,5 +30,17 @@ main{
 
 .contactpage{
   height: 90vh;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%);
 }
 
+.showcase{
+  height: 70vh;
+  z-index: 0;
+}
+
+.showcase::before, .showcase::after {
+  z-index: -1;
+}

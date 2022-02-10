@@ -1,0 +1,102 @@
+.card{
+    height: fit-content;
+    width: fit-content;
+}
+
+img{
+    height: inherit;
+}
+
+#smallerscreen{
+    visibility: hidden;
+}
+
+.programminginfo{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+#infocard{
+    margin: 0;
+    max-width: 550px;
+    top: 0;
+    margin-right: 10vh;
+}
+
+#skillschart{
+    margin: 0;
+    max-width: 300px;
+    top: 0;
+    float: right;
+    text-align: left;
+}
+
+.progress{
+    background-color: lightgray;
+}
+
+.progressbar{
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+label{
+    padding-top: 0.5em;
+}
+
+.flex-container{
+    display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+    #image{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .grid{
+        position: relative;
+        display: inline-block;
+    }
+
+    .showcase-text{
+        visibility: hidden;
+    }
+
+    #smallerscreen{
+        visibility: visible;
+        padding-top: 16vh;
+        padding-bottom: 5vh;
+    }
+
+    .flex-container{
+        display: block;
+    }
+
+    #skillschart{
+        float: left;
+        padding: 0;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    #infocard{
+        max-width: 90vw;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container .card{
+        max-width: 70vw;
+    }
+
+    #smallerscreen{
+        padding-top: 11vh;
+    }
+}
+
+
