@@ -1,0 +1,171 @@
+* {
+	margin:0;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+
+body {
+	padding: 50px 0px 0px 0px;
+	background-color: #3295bd;
+}
+hr {
+	margin: auto;
+	width: 90%;
+	color: grey;
+}
+
+.container {
+	margin: 50px auto;
+	display: flex;
+	justify-content: flex-start;
+	width: 90%;
+	
+
+}
+
+aside, main section {
+	background-color: white;
+	border: 1px solid grey;
+	box-shadow: 0px 0px 8px 8px #c9c9c9;
+	flex: 3;
+	margin-right: 15px;
+
+}
+
+main {
+	flex: 7;
+}
+
+main #first-section {
+	margin-bottom: 50px;
+}
+
+.personal-Image {
+	width: 100%;
+  	height: auto;
+}
+
+.person-name {
+	color: #5c5c5c ;
+	font-size: 2vw;
+	margin: 5px;
+}
+
+.personal-details, .details-list {
+	font-size: 1.2vw;
+	padding: 25px;
+	list-style: none;
+	color:#3295bd;
+}
+
+.details-list {
+	padding-top: 0px;
+}
+
+.personal-details li{
+	margin: 15px 0px;
+}
+
+.personal-details li i {
+	margin-right: 10px;
+
+}
+
+.details-list li {
+	margin: 15px 0px;
+}
+
+.head-section {
+	color: #5c5c5c;
+	padding: 30px;
+	margin: 0px;
+	font-size: 1.6vw;
+}
+
+.head-section i{
+	color: #3295bd;
+}
+
+.progress-back {
+	border: 1px solid grey;
+	border-radius: 15px;
+	height: 1.5em;
+	margin-top: 15px;
+	text-align: justify;
+}
+
+.progress-text {
+	color: white;
+	text-align: center;
+}
+
+
+.progress {
+	height: 100%;
+	border-radius: 15px;
+	background-color: #3295bd;
+}
+
+.p-100 {width: 100%;}
+.p-95 {width: 95%;}
+.p-90 {width: 55%;}
+.p-85 {width: 85%;}
+.p-75 {width: 75%;}
+.p-30 {width: 15%;}
+
+
+.data-details {
+	width: 90%;
+	margin: auto;
+	padding: 40px 0px;
+}
+
+.data-details h3{
+	font-size: 1.2vw;
+	color: #5c5c5c;
+	margin: 10px 0px;
+}
+
+.data-details > span{
+	color: #3295bd;
+	margin: 15px 0px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+.green-span {
+	background-color:#3295bd;
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: normal;
+	color: white;
+}
+
+.fa-calendar-alt {
+	margin: 0px 10px;
+}
+
+.data-details p {
+	color: #5c5c5c;
+	margin: 10px 0px;
+	letter-spacing: .5px;
+	line-height: 1.6;
+}
+
+footer {
+	margin-top: 60px; 
+	width: 100%;
+	height: 150px;
+	background-color: #3295bd;
+	text-align: center;
+	padding: 20px 0px;
+	color: white;
+	font-weight: bold;
+	line-height: 2;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+	font-size: 3.0vw;
+}
