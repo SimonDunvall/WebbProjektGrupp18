@@ -91,6 +91,14 @@ hr{
 	color: grey;
 }
 
+.navbar {
+    background-color:#3295bd;
+}
+
+.showcase{
+    background-color: #3295bd;
+}
+
 @media only screen and (max-width: 768px) {
     #image{
         position: absolute;
