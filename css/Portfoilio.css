@@ -1,0 +1,32 @@
+.col-sm-6{
+    height: 40vh;
+    width: 18vw;
+    margin-right: 1vw;
+    margin-bottom: 10vh;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 5px 5px 3px 3px lightblue;
+    border-radius: 10px;
+    overflow: auto;
+    min-width: 250px;
+    min-height: 400px;
+}
+
+main{
+    padding-top: 10vh;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+#picture{
+    overflow: hidden;
+    padding: 0;
+}
+
+img{
+    height: 60vh;
+    width: 25vw;
+    object-fit: fill;
+}
