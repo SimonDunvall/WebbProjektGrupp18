@@ -20,7 +20,7 @@ body{
     background-color: var(--primary-color);
 }
 
-#picture{
+#picture1, #picture2, #picture3, #picture4 {
     overflow: hidden;
     padding: 0;
 }
