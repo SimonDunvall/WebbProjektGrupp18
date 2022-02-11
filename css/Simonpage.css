@@ -1,6 +1,8 @@
 .card{
     height: fit-content;
     width: fit-content;
+    box-shadow: 0px 0px 8px 8px #c9c9c9;
+    border: 1px solid black;
 }
 
 img{
@@ -15,14 +17,15 @@ img{
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 40px;
-    height: 51vh;
+    height: 120vh;
 }
 
 #infocard{
     margin: 0;
-    max-width: 550px;
     top: 0;
-    margin-right: 10vh;
+    width: 100%;
+    box-shadow: 0px 0px 8px 8px #c9c9c9;
+    border: 1px solid black;
 }
 
 #skillschart{
@@ -38,7 +41,7 @@ img{
 }
 
 .progressbar{
-    background-color: #333;
+    background-color: #3295bd;
     color: white;
     text-align: center;
 }
@@ -61,23 +64,6 @@ label{
     opacity: 0;
 }
 
-footer{
-    width: 100vw;
-    text-align: center;
-    background-color: var(--primary-color);
-    height: 22vh;
-    flex-shrink: 0;
-}
-
-footer p{
-    padding-top: 3vh;
-    color: black;
-}
-
-footer a{
-    color: black;
-}
-
 #image{
     padding: 10px;
 }
@@ -90,6 +76,19 @@ body{
 main{
     flex: 1 0 auto;
     padding-bottom: 10vh;
+}
+
+#education{
+    padding-top: 2vh;
+}
+
+h2{
+    padding-bottom: 2vh;
+}
+
+hr{
+	width: 90%;
+	color: grey;
 }
 
 @media only screen and (max-width: 768px) {
@@ -143,10 +142,14 @@ main{
     footer{
         height: 25vh;
     }
+
+    main{
+        height: 350vh;
+    }
+
 }
 
 @keyframes biggertext {
-    100%{width: 40vw; left: 5vw;}
+    100%{width: 40vw; margin-left: auto; margin-right: auto;}
 }
-
 
