@@ -1,8 +1,6 @@
 .card{
     height: fit-content;
     width: fit-content;
-    box-shadow: 0px 0px 8px 8px #c9c9c9;
-    border: 1px solid black;
 }
 
 img{
@@ -24,8 +22,6 @@ img{
     margin: 0;
     top: 0;
     width: 100%;
-    box-shadow: 0px 0px 8px 8px #c9c9c9;
-    border: 1px solid black;
 }
 
 #skillschart{
@@ -41,7 +37,7 @@ img{
 }
 
 .progressbar{
-    background-color: #3295bd;
+    background-color: var(--dark-color);
     color: white;
     text-align: center;
 }
@@ -66,11 +62,14 @@ label{
 
 #image{
     padding: 10px;
+    justify-self: left;
 }
 
 body{
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 main{
@@ -91,12 +90,31 @@ hr{
 	color: grey;
 }
 
-.navbar {
-    background-color:#3295bd;
+.navbar{
+    padding: 0;
+    width: 100vw;
 }
 
-.showcase{
-    background-color: #3295bd;
+h1{
+    font-size: 2em;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: lightgray;
+}
+
+footer{
+    width: 100vw;
+    bottom: 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -147,14 +165,18 @@ hr{
         padding-top: 11vh;
     }
 
-    footer{
-        height: 25vh;
+    .navbar {
+        height: 110px;
     }
 
-    main{
-        height: 350vh;
+    .navbar .flex {
+        flex-direction: column;
     }
 
+    .navbar ul {
+        padding: 10px;
+        background-color: rgba(0,0,0,0.1);
+    }
 }
 
 @keyframes biggertext {

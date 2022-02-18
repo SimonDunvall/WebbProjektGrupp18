@@ -57,7 +57,7 @@
 		grid-column: 1;
 	}
 
-	@media (max-width: 500px) {
+	@media (max-width: 576px) {
 		.navbar {
 			height: 110px;
 		}
@@ -315,7 +315,7 @@ img {
 }
 .projects-main .card > img {
 	width: 200px;
-	margin-botton: 30px;
+	margin-bottom: 30px;
 	align-self: baseline;
 }
 .projects-main .grid {
@@ -448,6 +448,7 @@ img {
 
 .my-2 {
     margin: 1.5rem 0;
+    margin-bottom: 0;
 }
 
 .my-3 {
@@ -528,6 +529,25 @@ img {
 
 .p-5 {
     padding: 4rem;
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        height: 110px;
+    }
+
+    .navbar .flex {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        padding: 10px;
+        background-color: rgba(0,0,0,0.1);
+    }
+
+    .showcase-form {
+        width: 300px;
+    }
 }
 
 
