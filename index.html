@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/js/script.js"></script>'
-    
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Font -->
@@ -18,7 +18,7 @@
     <title>SkyWalk | Takes hosting to the sky</title>
 </head>
 
-<body>
+<body class="index">
     <!-- Navbar -->
     <div class="navbar">
         <div class="container flex">
@@ -46,15 +46,17 @@
                 <a href="/pages/projects.html" class="btn btn-outline">Our Projects</Our></a>
             </div>
 
-            <div class="showcase-form card">
+            <div class="showcase-form card" id="contactform">
                 <h2>Contact Us</h2>
                 <form>
                     <div class="form-control">
                         <input type="text" name="name" placeholder="Name" required>
                         <div class="form-control">
-                            <input type="tel" name="phone number" placeholder="123-456 78 90" pattern="^\d{3}-\d{3} \d{2} \d{2}$" required>
+                            <input type="tel" name="phone number" placeholder="123-456 78 90"
+                                pattern="^\d{3}-\d{3} \d{2} \d{2}$" required>
                             <div class="form-control">
-                                <input type="email" id="email" name="Email" placeholder="Email" onkeyup="emailvalidation(this.value)" required>
+                                <input type="email" id="email" name="Email" placeholder="Email"
+                                    onkeyup="emailvalidation(this.value)" required>
                             </div>
                 </form>
                 <input type="submit" value="Send" class="btn btn-primary">
